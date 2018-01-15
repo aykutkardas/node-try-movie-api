@@ -13,5 +13,7 @@ module.exports= () => {
         console.log('MongoDB Error: \n', err);
     });
 
+    mongoose.Promise = global.Promise;
+
 
 };
